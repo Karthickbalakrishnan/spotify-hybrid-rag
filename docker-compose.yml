@@ -9,4 +9,5 @@ services:
     volumes:
       - ./chroma_db:/app/chroma_db
       - ./flashrank_cache:/app/flashrank_cache
+      - ./media_cache:/app/media_cache
     restart: unless-stopped

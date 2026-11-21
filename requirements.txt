@@ -9,5 +9,7 @@ flashrank
 chromadb
 rank_bm25
 pypdf
+pymupdf
+moviepy
 docx2txt
 python-dotenv
