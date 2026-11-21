@@ -1,0 +1,12 @@
+services:
+  smart-doc-qa:
+    build: .
+    container_name: smart-doc-qa-live
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./flashrank_cache:/app/flashrank_cache
+    restart: unless-stopped

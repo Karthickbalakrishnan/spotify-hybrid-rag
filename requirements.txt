@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langsmith
+pydantic
+flashrank
+chromadb
+rank_bm25
+pypdf
+docx2txt
+python-dotenv
